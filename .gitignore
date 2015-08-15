@@ -1,3 +1,4 @@
 #no compiled stuff
+build
 *.lib
 *.fas

@@ -3,7 +3,7 @@
 (defun random-list
   (the-length)
   "returns list of random numbers of length n between 1 and 1000"
-  (loop for ifrom 0 to the-length collect (random 1000)))
+  (loop for i from 0 to the-length collect (random 1000)))
 
 (defun insertion-sort
   (the-list)
